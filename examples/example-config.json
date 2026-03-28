@@ -1,0 +1,44 @@
+{
+    "models": [
+        {
+            "name": "openai-gpt4",
+            "host": "https://api.openai.com",
+            "port": "443",
+            "endpoint": "/v1/chat/completions",
+            "apiKey": "sk-proj-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "modelName": "gpt-4"
+        },
+        {
+            "name": "openai-gpt35",
+            "host": "https://api.openai.com",
+            "port": "443",
+            "endpoint": "/v1/chat/completions",
+            "apiKey": "sk-proj-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "modelName": "gpt-3.5-turbo"
+        },
+        {
+            "name": "local-ollama",
+            "host": "http://localhost",
+            "port": "11434",
+            "endpoint": "/v1/chat/completions",
+            "apiKey": "",
+            "modelName": "llama2"
+        },
+        {
+            "name": "local-vllm",
+            "host": "http://localhost",
+            "port": "8000",
+            "endpoint": "/v1/chat/completions",
+            "apiKey": "",
+            "modelName": "qwen"
+        },
+        {
+            "name": "azure-openai",
+            "host": "https://your-resource.openai.azure.com",
+            "port": "443",
+            "endpoint": "/openai/deployments/your-deployment/chat/completions?api-version=2023-05-15",
+            "apiKey": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+            "modelName": "gpt-4"
+        }
+    ]
+}
